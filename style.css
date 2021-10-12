@@ -1,0 +1,45 @@
+/*RESET CSS DO NAVEGADOR*/
+*{
+  margin: 0; /*tirar marge,*/
+  padding: 0; /*tirar preenchimento*/
+  box-sizing: border-box; /*comportamento das caixas htlm - contar caixa apatir da borda*/
+}
+
+a{
+  text-decoration: none; /*tira as decorações que foram feitas no texto de alinhamento*/
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+/*BASE*/
+
+/*?*/
+:root{
+  font-size: 100%; /*16px*/
+}
+
+/*LAYOT*/
+#header{ /*id= # class=.*/
+height: 4.5rem; /* busca no root elemente 4.5*fonte -size*/
+}
+
+nav{
+  display: flex; /*As caixas menores ficam um do lado do outro*/
+  justify-content: space-between; /*joga um caixa de um lado e a outra caixa para utra*/
+}
+
+.logo{
+
+}
+
+.container{
+  width: 100%;
+  /*margin: 0 auto; vertical e horizontal*/
+  margin-left: 1.5rem; /*24 pixel lateral*/
+  margin-right: 1.5rem; /*24 pixel lateal*/
+}
+
+/*HOME*/
