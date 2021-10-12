@@ -17,19 +17,32 @@ img{
 /*VARIAVEIS*/
 :root{
   font-size: 100%; /*16px*/
+
+  --hue: 159;
+  --base-color: hsl(var(--hue) 26% 57%);
+  --base-color-second: hsl(var(--hue) 65% 88%);
+  --base-color-alt: hsl(var(--hue) 57% 53%);
+  --title-color: hsl(var(--hue)41% 10%); 
+  --text-color: hsl(0 0% 46%);
+  --text-color-light: hsl(0 0% 98%);
+  --body-color: hsl(0 0% 98%);
 }
 
 /*BASE*/
 body{
   font: 400 1rem , sans-serif;
+  color: var(--text-color);
+  background: var(--body-color);
+  -webkit-font-smoothing: auto; /*letras com acentuação - depende do navegador*/
 }
 
 h1{
   font: 700 1.875rem "Poppins" , sans-serif;
+  color:  var(--title-color);
 }
 
 .button{
-  
+
 }
 
 /*LAYOT*/
