@@ -14,11 +14,22 @@ img{
   height: auto;
 }
 
-/*BASE*/
-
-/*?*/
+/*VARIAVEIS*/
 :root{
   font-size: 100%; /*16px*/
+}
+
+/*BASE*/
+body{
+  font: 400 1rem , sans-serif;
+}
+
+h1{
+  font: 700 1.875rem "Poppins" , sans-serif;
+}
+
+.button{
+  
 }
 
 /*LAYOT*/
